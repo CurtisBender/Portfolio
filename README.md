@@ -12,7 +12,7 @@
 
 ## Projects
 ### Are Consecutive Free Throws Independent Events?
-[Publication] (https://github.com/CurtisBender/Free-Throws)
+[Publication](https://github.com/CurtisBender/Free-Throws)
 
 Determined how the result of the first free throw affects the probability of making the second free throw using the **pandas** library in **Python**. 
 
