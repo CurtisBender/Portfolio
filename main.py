@@ -3,9 +3,8 @@ import pandas as pd
 pd.options.mode.chained_assignment = None
 import scipy.stats as st
 import numpy as np
-#import matplotlib.pyplot as plt
 
-#Create dataframe by reading csv
+#Create a dataframe by reading csv
 df = pd.read_csv(r'C:\Users\bendc\OneDrive\Documents\Free Throws\free_throws.csv')
 
 #Remove unneeded columns
@@ -47,7 +46,7 @@ df_pairs = df_pairs.loc[:,~df_pairs.columns.duplicated()]
 df_missed_first = df_pairs[df_pairs['shot1']==0]
 df_made_first = df_pairs[df_pairs['shot1']==1]
 
-#Add a column that has the count of free throw attempts where the first was missed and do the same for made
+#Add a column that has the count of free throw attempts where the first was missed/made
 df_missed_first['missed_first']=1
 df_made_first['made_first']=1
 
@@ -84,16 +83,19 @@ df_final['d'] = np.abs((df_final['theta_hat_1'] - df_final['theta_hat_2']) /
 
 df_final['p-val'] = 2 * (1 - st.norm.cdf(df_final['d']))
 
-#Summarize results
+#Count the total number of players that had a large enough sample size
 total_num_players = df_final['player'].count()
 
+#Count the number of players that had a statistically significant difference between making and missing the 1st free throw
 df_stat_sig = df_final[df_final['p-val'] <= 0.05]
 num_stat_sig = df_stat_sig['player'].count()
 
+#Count the number of players that are more likely to make the 2nd free throw after making/missing the first
 num_hit_1st_better = df_stat_sig[(df_stat_sig['theta_hat_1'] - df_stat_sig['theta_hat_2']) < 0]['player'].count()
 
 num_hit_1st_worse = df_stat_sig[(df_stat_sig['theta_hat_1'] - df_stat_sig['theta_hat_2']) > 0]['player'].count()
 
+#Create a dataframe that contains the results
 results = [total_num_players, num_stat_sig, num_hit_1st_better, num_hit_1st_worse]
 df_results = pandas.DataFrame([results], columns=['Total Players', 'Statistically Significant', 'Better to Make 1st', 'Better to Miss 1st'])
 
