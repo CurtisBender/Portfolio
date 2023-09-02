@@ -1,7 +1,8 @@
 # Co-op Student - Statistics and Data Analysis
 
 ## Education
-**University of Waterloo**\\
+**University of Waterloo**
+
 Bachelor of Mathematics, Honours **Statistics**, Co-op (_September 2020 - Present_)
 
 ## Work Experience
