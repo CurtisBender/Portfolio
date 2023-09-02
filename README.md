@@ -14,6 +14,6 @@
 
 ## Projects
 ### Are Consecutive Free Throws Independent Events?
-Determined how the results of the first free throw affects the probability of making the second free throw using the **pandas** library in **Python**.
+Determined how the result of the first free throw affects the probability of making the second free throw using the **pandas** library in **Python**.
 Analysis involved calculating the **p-value**, with the null hypothesis that consecutive free throws are independent events, for each player with a large enough sample of free throw attemps. 
 
