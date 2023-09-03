@@ -1,4 +1,4 @@
-# Co-op Student - Statistics and Data Analysis
+# University Co-op Student - Statistics
 
 ## Education
 **B.M., Statistics, Co-op | Univeristy of Waterloo** (_September 2020 - Present_)
