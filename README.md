@@ -11,7 +11,7 @@
 **Environmental Planning & Regulations Co-op Student**, Saugeen Valley Conservation Authority (_September 2019 - January 2020_)
 
 ## Projects
-### Are Consecutive Free Throws Independent Events?
+### Are Consecutive Free Throws Dependent Events?
 [Project](https://github.com/CurtisBender/Free-Throws)
 
 Determined how the result of the first free throw affects the probability of making the second free throw using the **pandas** library in **Python**. 
