@@ -1,7 +1,7 @@
 # University Co-op Student
 
 ## Education
-**B.M., Statistics, Co-op | Univeristy of Waterloo** (_September 2020 - Present_)
+**B.M., Statistics, Co-op | University of Waterloo** (_September 2020 - Present_)
 
 ## Work Experience
 **Finance Assistant**, Township of Wellington North (_May 2023 - August 2023_)
