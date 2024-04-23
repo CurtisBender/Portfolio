@@ -4,7 +4,7 @@
 **B.M., Statistics, Co-op | University of Waterloo** (_September 2020 - Present_)
 
 ## Work Experience
-**Co-op Analyst**, Toyota Motor Manufacturing Canada (_January 2024 - April 2024_)
+**Co-op Analyst - HR Corporate Services**, Toyota Motor Manufacturing Canada (_January 2024 - April 2024_)
 
 **Finance Assistant**, Township of Wellington North (_May 2023 - August 2023_)
 
