@@ -22,7 +22,7 @@ Determined how the result of the first free throw affects the probability of mak
 
 A dataset containing information for over **600 thousand** NBA free throws was cleaned and analysed. 
 
-Analysis involved indivudual player analysis and a general player analysis.
+Analysis involved individual player analysis and a general player analysis.
 
 The individual player analysis involved calculating the **p-value** for individual players with the null hypothesis that consecutive free throws are independent events.
 
