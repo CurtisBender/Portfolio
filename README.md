@@ -18,9 +18,9 @@
 ### Dependence of NBA Free Throws
 [Project](https://github.com/CurtisBender/Dependence-of-NBA-Free-Throws)
 
-Determined how the result of the first free throw affects the probability of making the second free throw using the **pandas** library in **Python**. 
+Determined how the result of the first free throw affects the probability of making the second free throw using the **Pandas, NumPy, SciPy, and pymer4** libraries in **Python**. 
 
-A dataset containing information for over **600 thousand** NBA free throws was cleaned and analysed. 
+Cleaned and analyzed a dataset containing information for over **600 thousand** NBA free throws. 
 
 Analysis involved individual player analysis and a general player analysis.
 
