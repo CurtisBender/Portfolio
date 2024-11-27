@@ -26,6 +26,6 @@ Analysis involved individual player analysis and a general player analysis.
 
 The individual player analysis involved calculating the **p-value** for individual players with the null hypothesis that consecutive free throws are independent events.
 
-The general player analysis used **mixed effects logistic regression** to model the probability of a player making free throw 2 of 2 given the result of free throw 1 of 2, while accounting for differences in overall free throw abilities amongst different player's.
+The general player analysis used **mixed effects logistic regression** to model the probability of a player making free throw 2 of 2 given the result of free throw 1 of 2, while accounting for differences in overall free throw abilities amongst different players.
 
 
