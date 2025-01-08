@@ -24,8 +24,8 @@ Cleaned and analyzed a dataset containing information for over **600 thousand** 
 
 Analysis involved individual player analysis and a general player analysis.
 
-The individual player analysis involved calculating the **p-value** for individual players with the null hypothesis that consecutive free throws are independent events.
+The individual player analysis entailed calculating **p-values** for individual players with the null hypothesis that consecutive free throws are independent events and applying a multiple testing correction.
 
-The general player analysis used **mixed effects logistic regression** to model the probability of a player making free throw 2 of 2 given the result of free throw 1 of 2, while accounting for differences in overall free throw abilities amongst different players.
+The general player analysis used **mixed effects logistic regression** to model the probability of a player making the second free throw given the result of the first, while accounting for differences in overall free throw abilities amongst different players.
 
 
