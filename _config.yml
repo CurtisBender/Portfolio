@@ -1,5 +1,4 @@
 title: Curtis Bender
-#logo: file path
-#description: text below image
-show_dowloads: true
+logo: /Assets/Images/headshot.JPG
+show_dowloads: false
 theme: jekyll-theme-minimal
