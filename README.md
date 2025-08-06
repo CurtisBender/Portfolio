@@ -4,6 +4,8 @@
 **B.M., Statistics, Co-op | University of Waterloo** (_September 2020 - Present_)
 
 ## Work Experience
+**Co-op Data Analysts**, theScore (_May 2025 - August 2025_)
+
 **Co-op Analyst - Final Vehicle Logistics**, Toyota Motor Manufacturing Canada (_September 2024 - December 2024_)
 
 **Co-op Analyst - Corporate Services**, Toyota Motor Manufacturing Canada (_January 2024 - April 2024_)
